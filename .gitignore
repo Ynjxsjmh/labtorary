@@ -1,6 +1,6 @@
 # Cpp
-**/*.exe
-gmon.out
+*.exe
+*.out
 
 # Java
 *.class

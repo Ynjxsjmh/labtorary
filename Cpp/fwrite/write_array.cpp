@@ -1,6 +1,5 @@
 /* fwrite example : write buffer */
-#include <stdio.h>
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main ()
@@ -11,12 +10,12 @@ int main ()
     fwrite(buffer , sizeof(char), sizeof(buffer) , pFile );
     fclose(pFile);
 
-	cout<<sizeof(buffer)<<endl;
+    cout<<sizeof(buffer)<<endl;
 
-	char* buf;
+    char* buf;
     pFile = fopen ( "write_buffer.out" , "rb" );
     fread(buf, sizeof(char), sizeof(buffer), pFile);
-    
+    fclose(pFile);
+
     cout<<buf;
-    return 0;
 }
