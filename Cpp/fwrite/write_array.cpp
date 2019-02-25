@@ -18,4 +18,6 @@ int main ()
     fclose(pFile);
 
     cout<<buf;
+
+	return 0;
 }

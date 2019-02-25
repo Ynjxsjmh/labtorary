@@ -36,4 +36,6 @@ int main ()
     fread(&y, sizeof(int), 2, pFile);
     cout<<"----------"<<endl<<y<<endl;
     fclose(pFile);
+
+	return 0;
 }
