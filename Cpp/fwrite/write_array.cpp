@@ -1,4 +1,5 @@
 /* fwrite example : write buffer */
+#include <cstdio>
 #include <iostream>
 using namespace std;
 

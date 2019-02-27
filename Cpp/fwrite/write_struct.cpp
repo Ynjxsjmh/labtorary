@@ -21,12 +21,12 @@ int main(void)
     cout<<write_info.fl_offset<<endl;
     cout<<"---------"<<endl;
 
-    FILE* f_write = fopen("write_struct.txt", "wb");
+    FILE* f_write = fopen("write_struct.out", "wb");
     fwrite(&write_info, sizeof(HeaderInfo), 1, f_write);
     fclose(f_write);
 
     HeaderInfo read_info;
-    FILE* f_read = fopen("write_struct.txt", "rb");
+    FILE* f_read = fopen("write_struct.out", "rb");
     fread(&read_info, sizeof(HeaderInfo), 1, f_read);
     fclose(f_read);
     printf("%d\n", read_info.tuple_num);
