@@ -57,6 +57,6 @@ int main ()
     fflush(pFile);
     fclose(pFile);
 
-	return 0;
+    return 0;
 }
 

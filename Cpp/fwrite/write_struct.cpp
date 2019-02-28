@@ -38,6 +38,6 @@ int main(void)
     cout<<read_info.tuple_num<<endl;
     cout<<read_info.fl_offset<<endl;
 
-	return 0;
+    return 0;
 }
 

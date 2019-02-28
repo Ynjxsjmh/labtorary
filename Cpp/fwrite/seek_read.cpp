@@ -38,5 +38,5 @@ int main ()
     cout<<"----------"<<endl<<y<<endl;
     fclose(pFile);
 
-	return 0;
+    return 0;
 }
