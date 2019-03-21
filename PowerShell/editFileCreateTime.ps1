@@ -1,0 +1,1 @@
+Get-Childitem -path 'E:\project_llj\install\test\' -Recurse | foreach-object { $_.LastWriteTime = Get-Date; $_.CreationTime = '01/11/2004 22:13:36' }
