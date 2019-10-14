@@ -1,0 +1,1 @@
+Get-Childitem -Recurse -File | where-object {$_.Name -match '.*\(.*\).*'} | Remove-Item
