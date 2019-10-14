@@ -1,0 +1,1 @@
+Get-Childitem -Filter *.gif -Recurse | Remove-Item -Force
